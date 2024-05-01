@@ -8,6 +8,7 @@ followed by the `terraform apply` command.
 Note that this example may create resources which cost money. Run
 `terraform destroy` when you no longer need these resources.
 
+<!-- BEGIN_TF_DOCS -->
 ## Requirements ##
 
 | Name | Version |
@@ -45,3 +46,4 @@ No inputs.
 | private\_subnets | The private subnets. |
 | public\_subnets | The public subnets. |
 | vpc | The VPC. |
+<!-- END_TF_DOCS -->
